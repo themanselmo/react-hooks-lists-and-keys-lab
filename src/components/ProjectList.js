@@ -9,7 +9,7 @@ function ProjectList({ projects }) {
               name={project.name} 
               about={project.about} 
               technologies={project.technologies}
-              id={project.id}
+              key={project.id}
             />
   })
 
